@@ -1,0 +1,9 @@
+def consistent(assignment):
+
+    no duplicate words
+    word length correct
+
+    for each crossing pair:
+        letters must match
+
+    return True if all good
