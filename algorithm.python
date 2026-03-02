@@ -1,0 +1,18 @@
+def backtrack(assignment):
+
+    if assignment is complete:
+        return assignment
+
+    var = choose_unfilled_variable()
+
+    for word in domain[var]:
+        assignment[var] = word
+
+        if assignment is consistent:
+            result = backtrack(assignment)
+            if result:
+                return result
+
+        remove assignment[var]
+
+    return None
