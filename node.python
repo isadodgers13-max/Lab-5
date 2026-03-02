@@ -1,0 +1,2 @@
+for v in variables:
+    domain[v] = {w for w in domain[v] if len(w) == v.length}
