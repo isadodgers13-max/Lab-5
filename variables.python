@@ -1,0 +1,6 @@
+class Variable:
+    def __init__(self, row, col, direction, length):
+        self.row = row
+        self.col = col
+        self.direction = direction
+        self.length = length
