@@ -1,0 +1,3 @@
+def revise(x, y):
+    remove words from domain[x]
+    if no word in domain[y] matches overlap
